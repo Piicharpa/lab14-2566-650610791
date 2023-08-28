@@ -17,7 +17,7 @@ export default function FoodReviewPage() {
 
       <Group position = "center" mt="s">
       <Title order={4}>Elon Musk</Title>
-      <Rating value = {5} size="sm" />
+      <Rating value = {5} size="sm" readOnly/>
       </Group>
       <Text align = "center" color="dimmed" size="md">
       Best pizza in this world. I give you X score.
@@ -27,7 +27,7 @@ export default function FoodReviewPage() {
 
       <Group position = "center" mt="sm">
       <Title order={4}>Mark Zuck</Title>
-      <Rating value = {4} size="sm" />
+      <Rating value = {4} size="sm" readOnly/>
       </Group>
       <Text align = "center" color="dimmed" size="md">
       My favourite part is pepperoni
